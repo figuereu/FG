@@ -1,0 +1,23 @@
+{
+  "seed": 234,
+  "device": "cuda:0",
+  "num_workers": 4,
+  "train_list": "../list/ucf_CLIP_rgb.csv",
+  "test_list": "../list/ucf_CLIP_rgbtest.csv",
+  "gt_path": "../list/gt_ucf.npy",
+  "gt_segment_path": "../list/gt_segment_ucf.npy",
+  "gt_label_path": "../list/gt_label_ucf.npy",
+  "seq_len": 256,
+  "frames_per_segment": 16,
+  "video_feature_dim": 512,
+  "mil_k_ratio": 32,
+  "epochs": 10,
+  "batch_size": 64,
+  "lr": 0.0001,
+  "weight_decay": 0.01,
+  "evals_per_epoch": 12,
+  "restore_best": false,
+  "run_root": "../runs",
+  "run_name": null,
+  "checkpoint": null
+}

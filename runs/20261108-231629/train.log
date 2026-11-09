@@ -1,0 +1,134 @@
+23:16:29 | Model(
+  (binary_classifier): Sequential(
+    (0): Linear(in_features=512, out_features=1, bias=True)
+  )
+)
+trainable parameters: 513
+23:16:29 | run: ../runs/20261108-231629
+
+23:16:29 | config {"seed": 234, "device": "cuda:0", "num_workers": 4, "train_list": "../list/ucf_CLIP_rgb.csv", "test_list": "../list/ucf_CLIP_rgbtest.csv", "gt_path": "../list/gt_ucf.npy", "gt_segment_path": "../list/gt_segment_ucf.npy", "gt_label_path": "../list/gt_label_ucf.npy", "seq_len": 256, "frames_per_segment": 16, "video_feature_dim": 512, "mil_k_ratio": 32, "epochs": 10, "batch_size": 64, "lr": 0.0001, "weight_decay": 0.01, "evals_per_epoch": 12, "restore_best": false, "run_root": "../runs", "run_name": null, "checkpoint": null}
+23:16:29 | 125 steps per epoch, 10 epochs, evaluating at steps [10, 21, 31, 42, 52, 62, 73, 83, 94, 104, 115, 125]
+
+23:16:31 | epoch   0/10 | step   0/125 | loss nan | auc 0.6831  *
+23:16:35 | epoch   1/10 | step  10/125 | loss 0.6696 | auc 0.7058  *
+23:16:38 | epoch   1/10 | step  21/125 | loss 0.6634 | auc 0.7256  *
+23:16:41 | epoch   1/10 | step  31/125 | loss 0.6582 | auc 0.7391  *
+23:16:44 | epoch   1/10 | step  42/125 | loss 0.6534 | auc 0.7503  *
+23:16:47 | epoch   1/10 | step  52/125 | loss 0.6497 | auc 0.7580  *
+23:16:49 | epoch   1/10 | step  62/125 | loss 0.6451 | auc 0.7638  *
+23:16:52 | epoch   1/10 | step  73/125 | loss 0.6405 | auc 0.7690  *
+23:16:55 | epoch   1/10 | step  83/125 | loss 0.6366 | auc 0.7729  *
+23:16:57 | epoch   1/10 | step  94/125 | loss 0.6326 | auc 0.7761  *
+23:17:00 | epoch   1/10 | step 104/125 | loss 0.6293 | auc 0.7786  *
+23:17:03 | epoch   1/10 | step 115/125 | loss 0.6257 | auc 0.7810  *
+23:17:05 | epoch   1/10 | step 125/125 | loss 0.6224 | auc 0.7828  *
+23:17:10 | epoch   2/10 | step  10/125 | loss 0.5717 | auc 0.7842  *
+23:17:13 | epoch   2/10 | step  21/125 | loss 0.5726 | auc 0.7854  *
+23:17:15 | epoch   2/10 | step  31/125 | loss 0.5713 | auc 0.7864  *
+23:17:19 | epoch   2/10 | step  42/125 | loss 0.5691 | auc 0.7875  *
+23:17:21 | epoch   2/10 | step  52/125 | loss 0.5658 | auc 0.7882  *
+23:17:24 | epoch   2/10 | step  62/125 | loss 0.5622 | auc 0.7888  *
+23:17:26 | epoch   2/10 | step  73/125 | loss 0.5592 | auc 0.7896  *
+23:17:29 | epoch   2/10 | step  83/125 | loss 0.5568 | auc 0.7903  *
+23:17:32 | epoch   2/10 | step  94/125 | loss 0.5542 | auc 0.7907  *
+23:17:35 | epoch   2/10 | step 104/125 | loss 0.5515 | auc 0.7912  *
+23:17:37 | epoch   2/10 | step 115/125 | loss 0.5492 | auc 0.7916  *
+23:17:39 | epoch   2/10 | step 125/125 | loss 0.5459 | auc 0.7921  *
+23:17:43 | epoch   3/10 | step  10/125 | loss 0.5181 | auc 0.7925  *
+23:17:46 | epoch   3/10 | step  21/125 | loss 0.5139 | auc 0.7930  *
+23:17:49 | epoch   3/10 | step  31/125 | loss 0.5102 | auc 0.7934  *
+23:17:52 | epoch   3/10 | step  42/125 | loss 0.5067 | auc 0.7937  *
+23:17:55 | epoch   3/10 | step  52/125 | loss 0.5052 | auc 0.7940  *
+23:17:58 | epoch   3/10 | step  62/125 | loss 0.5024 | auc 0.7944  *
+23:18:01 | epoch   3/10 | step  73/125 | loss 0.5001 | auc 0.7949  *
+23:18:04 | epoch   3/10 | step  83/125 | loss 0.4978 | auc 0.7953  *
+23:18:07 | epoch   3/10 | step  94/125 | loss 0.4952 | auc 0.7956  *
+23:18:09 | epoch   3/10 | step 104/125 | loss 0.4940 | auc 0.7959  *
+23:18:12 | epoch   3/10 | step 115/125 | loss 0.4913 | auc 0.7962  *
+23:18:13 | epoch   3/10 | step 125/125 | loss 0.4897 | auc 0.7966  *
+23:18:18 | epoch   4/10 | step  10/125 | loss 0.4668 | auc 0.7972  *
+23:18:21 | epoch   4/10 | step  21/125 | loss 0.4598 | auc 0.7976  *
+23:18:23 | epoch   4/10 | step  31/125 | loss 0.4575 | auc 0.7977  *
+23:18:27 | epoch   4/10 | step  42/125 | loss 0.4565 | auc 0.7980  *
+23:18:29 | epoch   4/10 | step  52/125 | loss 0.4546 | auc 0.7983  *
+23:18:32 | epoch   4/10 | step  62/125 | loss 0.4537 | auc 0.7986  *
+23:18:35 | epoch   4/10 | step  73/125 | loss 0.4539 | auc 0.7992  *
+23:18:38 | epoch   4/10 | step  83/125 | loss 0.4521 | auc 0.7995  *
+23:18:40 | epoch   4/10 | step  94/125 | loss 0.4503 | auc 0.7999  *
+23:18:43 | epoch   4/10 | step 104/125 | loss 0.4496 | auc 0.8001  *
+23:18:46 | epoch   4/10 | step 115/125 | loss 0.4478 | auc 0.8004  *
+23:18:48 | epoch   4/10 | step 125/125 | loss 0.4469 | auc 0.8006  *
+23:18:53 | epoch   5/10 | step  10/125 | loss 0.4311 | auc 0.8008  *
+23:18:56 | epoch   5/10 | step  21/125 | loss 0.4260 | auc 0.8012  *
+23:18:58 | epoch   5/10 | step  31/125 | loss 0.4220 | auc 0.8014  *
+23:19:01 | epoch   5/10 | step  42/125 | loss 0.4220 | auc 0.8017  *
+23:19:04 | epoch   5/10 | step  52/125 | loss 0.4211 | auc 0.8020  *
+23:19:07 | epoch   5/10 | step  62/125 | loss 0.4204 | auc 0.8022  *
+23:19:09 | epoch   5/10 | step  73/125 | loss 0.4202 | auc 0.8027  *
+23:19:12 | epoch   5/10 | step  83/125 | loss 0.4191 | auc 0.8029  *
+23:19:15 | epoch   5/10 | step  94/125 | loss 0.4180 | auc 0.8031  *
+23:19:17 | epoch   5/10 | step 104/125 | loss 0.4161 | auc 0.8033  *
+23:19:21 | epoch   5/10 | step 115/125 | loss 0.4156 | auc 0.8035  *
+23:19:23 | epoch   5/10 | step 125/125 | loss 0.4143 | auc 0.8037  *
+23:19:27 | epoch   6/10 | step  10/125 | loss 0.4043 | auc 0.8038  *
+23:19:31 | epoch   6/10 | step  21/125 | loss 0.4028 | auc 0.8041  *
+23:19:33 | epoch   6/10 | step  31/125 | loss 0.4031 | auc 0.8043  *
+23:19:36 | epoch   6/10 | step  42/125 | loss 0.3978 | auc 0.8045  *
+23:19:39 | epoch   6/10 | step  52/125 | loss 0.3965 | auc 0.8047  *
+23:19:41 | epoch   6/10 | step  62/125 | loss 0.3951 | auc 0.8051  *
+23:19:44 | epoch   6/10 | step  73/125 | loss 0.3941 | auc 0.8053  *
+23:19:47 | epoch   6/10 | step  83/125 | loss 0.3929 | auc 0.8055  *
+23:19:50 | epoch   6/10 | step  94/125 | loss 0.3920 | auc 0.8057  *
+23:19:53 | epoch   6/10 | step 104/125 | loss 0.3913 | auc 0.8059  *
+23:19:55 | epoch   6/10 | step 115/125 | loss 0.3906 | auc 0.8062  *
+23:19:57 | epoch   6/10 | step 125/125 | loss 0.3886 | auc 0.8064  *
+23:20:02 | epoch   7/10 | step  10/125 | loss 0.3769 | auc 0.8065  *
+23:20:06 | epoch   7/10 | step  21/125 | loss 0.3789 | auc 0.8068  *
+23:20:08 | epoch   7/10 | step  31/125 | loss 0.3752 | auc 0.8069  *
+23:20:11 | epoch   7/10 | step  42/125 | loss 0.3758 | auc 0.8071  *
+23:20:13 | epoch   7/10 | step  52/125 | loss 0.3756 | auc 0.8073  *
+23:20:16 | epoch   7/10 | step  62/125 | loss 0.3726 | auc 0.8074  *
+23:20:19 | epoch   7/10 | step  73/125 | loss 0.3707 | auc 0.8076  *
+23:20:21 | epoch   7/10 | step  83/125 | loss 0.3709 | auc 0.8078  *
+23:20:24 | epoch   7/10 | step  94/125 | loss 0.3701 | auc 0.8081  *
+23:20:27 | epoch   7/10 | step 104/125 | loss 0.3689 | auc 0.8083  *
+23:20:29 | epoch   7/10 | step 115/125 | loss 0.3688 | auc 0.8087  *
+23:20:31 | epoch   7/10 | step 125/125 | loss 0.3679 | auc 0.8090  *
+23:20:36 | epoch   8/10 | step  10/125 | loss 0.3591 | auc 0.8091  *
+23:20:39 | epoch   8/10 | step  21/125 | loss 0.3552 | auc 0.8093  *
+23:20:41 | epoch   8/10 | step  31/125 | loss 0.3563 | auc 0.8096  *
+23:20:44 | epoch   8/10 | step  42/125 | loss 0.3536 | auc 0.8097  *
+23:20:47 | epoch   8/10 | step  52/125 | loss 0.3528 | auc 0.8099  *
+23:20:50 | epoch   8/10 | step  62/125 | loss 0.3541 | auc 0.8101  *
+23:20:53 | epoch   8/10 | step  73/125 | loss 0.3537 | auc 0.8104  *
+23:20:56 | epoch   8/10 | step  83/125 | loss 0.3527 | auc 0.8105  *
+23:20:59 | epoch   8/10 | step  94/125 | loss 0.3524 | auc 0.8106  *
+23:21:01 | epoch   8/10 | step 104/125 | loss 0.3525 | auc 0.8108  *
+23:21:04 | epoch   8/10 | step 115/125 | loss 0.3512 | auc 0.8110  *
+23:21:06 | epoch   8/10 | step 125/125 | loss 0.3500 | auc 0.8111  *
+23:21:11 | epoch   9/10 | step  10/125 | loss 0.3417 | auc 0.8113  *
+23:21:14 | epoch   9/10 | step  21/125 | loss 0.3335 | auc 0.8115  *
+23:21:16 | epoch   9/10 | step  31/125 | loss 0.3362 | auc 0.8117  *
+23:21:19 | epoch   9/10 | step  42/125 | loss 0.3362 | auc 0.8119  *
+23:21:22 | epoch   9/10 | step  52/125 | loss 0.3357 | auc 0.8121  *
+23:21:24 | epoch   9/10 | step  62/125 | loss 0.3370 | auc 0.8122  *
+23:21:27 | epoch   9/10 | step  73/125 | loss 0.3366 | auc 0.8124  *
+23:21:30 | epoch   9/10 | step  83/125 | loss 0.3370 | auc 0.8125  *
+23:21:33 | epoch   9/10 | step  94/125 | loss 0.3365 | auc 0.8127  *
+23:21:36 | epoch   9/10 | step 104/125 | loss 0.3355 | auc 0.8129  *
+23:21:38 | epoch   9/10 | step 115/125 | loss 0.3353 | auc 0.8131  *
+23:21:40 | epoch   9/10 | step 125/125 | loss 0.3357 | auc 0.8132  *
+23:21:45 | epoch  10/10 | step  10/125 | loss 0.3287 | auc 0.8134  *
+23:21:48 | epoch  10/10 | step  21/125 | loss 0.3293 | auc 0.8136  *
+23:21:51 | epoch  10/10 | step  31/125 | loss 0.3309 | auc 0.8138  *
+23:21:54 | epoch  10/10 | step  42/125 | loss 0.3302 | auc 0.8141  *
+23:21:57 | epoch  10/10 | step  52/125 | loss 0.3287 | auc 0.8142  *
+23:21:59 | epoch  10/10 | step  62/125 | loss 0.3289 | auc 0.8143  *
+23:22:02 | epoch  10/10 | step  73/125 | loss 0.3282 | auc 0.8145  *
+23:22:05 | epoch  10/10 | step  83/125 | loss 0.3259 | auc 0.8147  *
+23:22:07 | epoch  10/10 | step  94/125 | loss 0.3251 | auc 0.8148  *
+23:22:10 | epoch  10/10 | step 104/125 | loss 0.3246 | auc 0.8150  *
+23:22:13 | epoch  10/10 | step 115/125 | loss 0.3238 | auc 0.8151  *
+23:22:15 | epoch  10/10 | step 125/125 | loss 0.3237 | auc 0.8152  *
+23:22:15 | 
+best auc 0.8152 saved to ../runs/20261108-231629/best.pth

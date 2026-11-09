@@ -1,0 +1,14 @@
+15:48:16 | Model(
+  (binary_classifier): Sequential(
+    (0): Linear(in_features=512, out_features=1, bias=True)
+  )
+)
+trainable parameters: 513
+15:48:16 | run: ../runs/20261104-154816
+
+15:48:16 | config {"seed": 234, "device": "cuda:0", "num_workers": 4, "train_list": "../list/ucf_CLIP_rgb.csv", "test_list": "../list/ucf_CLIP_rgbtest.csv", "gt_path": "../list/gt_ucf.npy", "gt_segment_path": "../list/gt_segment_ucf.npy", "gt_label_path": "../list/gt_label_ucf.npy", "seq_len": 256, "frames_per_segment": 16, "video_feature_dim": 512, "mil_k_ratio": 16, "epochs": 10, "batch_size": 64, "lr": 0.0001, "weight_decay": 0.01, "evals_per_epoch": 1, "restore_best": false, "run_root": "../runs", "run_name": null, "checkpoint": null}
+15:48:16 | 125 steps per epoch, 10 epochs, evaluating at steps [125]
+
+15:48:18 | epoch   0/10 | step   0/125 | loss nan | auc 0.6831  *
+15:48:43 | epoch   1/10 | step 125/125 | loss 0.6223 | auc 0.7824  *
+15:49:10 | epoch   2/10 | step 125/125 | loss 0.5459 | auc 0.7917  *

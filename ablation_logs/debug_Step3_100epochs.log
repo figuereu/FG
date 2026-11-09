@@ -1,0 +1,49 @@
+Frame AUC with seed 234: untrained 0.6831 | trained 0.8475
+
+=== A. Frame AUC of 50 untrained models ===
+mean 0.4941, std 0.0928, min 0.3021, max 0.6767
+Models with AUC below 0.5: 52%
+
+=== B. Frame AUC breakdown ===
+all frames                                                0.8475
+anomalous videos only                                     0.6327
+annotated vs normal-video frames                          0.9728
+unannotated in anomalous videos vs normal-video frames    0.9394
+
+=== C. Per-class frame AUC ===
+               videos  auc_vs_normal_videos  auc_within_own_videos  mean_score_annotated
+class                                                                                   
+Abuse               2                0.9846                 0.5969                0.5256
+Arrest              5                0.9500                 0.7044                0.6329
+Arson               9                0.9887                 0.6639                0.6977
+Assault             3                0.9729                 0.5029                0.5184
+Burglary           13                0.9843                 0.6674                0.6951
+Explosion          21                0.9663                 0.4327                0.5707
+Fighting            5                0.9800                 0.6082                0.6842
+RoadAccidents      23                0.9590                 0.6020                0.5536
+Robbery             5                0.9592                 0.6795                0.6072
+Shooting           23                0.9903                 0.6709                0.7935
+Shoplifting        21                0.9178                 0.5976                0.5099
+Stealing            5                0.9991                 0.8915                0.9289
+Vandalism           5                0.9954                 0.7504                0.7871
+
+=== D. Score quantiles ===
+Untrained  Frames in normal videos                  p10 0.375 | median 0.411 | p90 0.453
+Untrained  Unannotated frames in anomalous videos   p10 0.404 | median 0.443 | p90 0.487
+Untrained  Annotated frames                         p10 0.406 | median 0.445 | p90 0.493
+Trained    Frames in normal videos                  p10 0.001 | median 0.007 | p90 0.089
+Trained    Unannotated frames in anomalous videos   p10 0.048 | median 0.522 | p90 0.970
+Trained    Annotated frames                         p10 0.124 | median 0.812 | p90 0.992
+
+=== E. Normal test videos: score vs length ===
+Spearman correlation of length and mean score: -0.003 (p = 0.966)
+           videos  mean_score  share_above_05
+snippets                                     
+up to 256     117      0.0350          0.0130
+257-1000       28      0.0535          0.0252
+over 1000       5      0.0185          0.0026
+
+=== F. Video-level AUC, train preprocessing on both splits ===
+train 0.9839 | test 0.9759 | gap 0.0080
+
+Plots saved to ../runs/20261104-171224/debug

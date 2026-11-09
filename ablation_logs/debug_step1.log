@@ -1,0 +1,15 @@
+
+=== 1. Initial loss, untrained model ===
+mean of 5 batches: 0.6741 | ln(2) = 0.6931
+
+=== 2. Overfit 4 rows, labels [0, 0, 9, 12] ===
+step   0: loss 0.6872
+step 100: loss 0.0740
+step 200: loss 0.0280
+step 300: loss 0.0152
+step 400: loss 0.0097
+step 500: loss 0.0068
+
+=== 3. Shuffled labels ===
+48.2% of videos switched between normal and anomalous. List saved to ../runs/shuffled_train_list.csv
+Next: python train.py --train-list ../runs/shuffled_train_list.csv --run-name shuffled_labels

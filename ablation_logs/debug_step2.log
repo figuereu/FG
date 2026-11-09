@@ -1,0 +1,133 @@
+Model(
+  (binary_classifier): Sequential(
+    (0): Linear(in_features=512, out_features=1, bias=True)
+  )
+)
+trainable parameters: 513
+run: ../runs/shuffled_labels
+
+125 steps per epoch, 10 epochs, evaluating at steps [10, 21, 31, 42, 52, 62, 73, 83, 94, 104, 115, 125]
+
+epoch   0/10 | step   0/125 | loss nan | auc 0.6831  *
+epoch   1/10 | step  10/125 | loss 0.6939 | auc 0.6818
+epoch   1/10 | step  21/125 | loss 0.6956 | auc 0.6843  *
+epoch   1/10 | step  31/125 | loss 0.6968 | auc 0.6819
+epoch   1/10 | step  42/125 | loss 0.6964 | auc 0.6778
+epoch   1/10 | step  52/125 | loss 0.6963 | auc 0.6745
+epoch   1/10 | step  62/125 | loss 0.6959 | auc 0.6719
+epoch   1/10 | step  73/125 | loss 0.6961 | auc 0.6700
+epoch   1/10 | step  83/125 | loss 0.6956 | auc 0.6658
+epoch   1/10 | step  94/125 | loss 0.6954 | auc 0.6609
+epoch   1/10 | step 104/125 | loss 0.6953 | auc 0.6593
+epoch   1/10 | step 115/125 | loss 0.6952 | auc 0.6577
+epoch   1/10 | step 125/125 | loss 0.6952 | auc 0.6517
+epoch   2/10 | step  10/125 | loss 0.6943 | auc 0.6443
+epoch   2/10 | step  21/125 | loss 0.6925 | auc 0.6383
+epoch   2/10 | step  31/125 | loss 0.6921 | auc 0.6356
+epoch   2/10 | step  42/125 | loss 0.6925 | auc 0.6324
+epoch   2/10 | step  52/125 | loss 0.6923 | auc 0.6312
+epoch   2/10 | step  62/125 | loss 0.6922 | auc 0.6253
+epoch   2/10 | step  73/125 | loss 0.6922 | auc 0.6195
+epoch   2/10 | step  83/125 | loss 0.6920 | auc 0.6152
+epoch   2/10 | step  94/125 | loss 0.6920 | auc 0.6090
+epoch   2/10 | step 104/125 | loss 0.6916 | auc 0.6072
+epoch   2/10 | step 115/125 | loss 0.6917 | auc 0.6085
+epoch   2/10 | step 125/125 | loss 0.6914 | auc 0.6113
+epoch   3/10 | step  10/125 | loss 0.6912 | auc 0.6131
+epoch   3/10 | step  21/125 | loss 0.6900 | auc 0.6141
+epoch   3/10 | step  31/125 | loss 0.6899 | auc 0.6139
+epoch   3/10 | step  42/125 | loss 0.6897 | auc 0.6114
+epoch   3/10 | step  52/125 | loss 0.6891 | auc 0.6110
+epoch   3/10 | step  62/125 | loss 0.6886 | auc 0.6112
+epoch   3/10 | step  73/125 | loss 0.6887 | auc 0.6074
+epoch   3/10 | step  83/125 | loss 0.6885 | auc 0.6066
+epoch   3/10 | step  94/125 | loss 0.6885 | auc 0.6054
+epoch   3/10 | step 104/125 | loss 0.6885 | auc 0.6003
+epoch   3/10 | step 115/125 | loss 0.6886 | auc 0.5949
+epoch   3/10 | step 125/125 | loss 0.6885 | auc 0.5873
+epoch   4/10 | step  10/125 | loss 0.6854 | auc 0.5860
+epoch   4/10 | step  21/125 | loss 0.6877 | auc 0.5834
+epoch   4/10 | step  31/125 | loss 0.6865 | auc 0.5860
+epoch   4/10 | step  42/125 | loss 0.6865 | auc 0.5888
+epoch   4/10 | step  52/125 | loss 0.6868 | auc 0.5866
+epoch   4/10 | step  62/125 | loss 0.6865 | auc 0.5848
+epoch   4/10 | step  73/125 | loss 0.6866 | auc 0.5837
+epoch   4/10 | step  83/125 | loss 0.6861 | auc 0.5823
+epoch   4/10 | step  94/125 | loss 0.6862 | auc 0.5774
+epoch   4/10 | step 104/125 | loss 0.6863 | auc 0.5696
+epoch   4/10 | step 115/125 | loss 0.6862 | auc 0.5653
+epoch   4/10 | step 125/125 | loss 0.6861 | auc 0.5659
+epoch   5/10 | step  10/125 | loss 0.6860 | auc 0.5669
+epoch   5/10 | step  21/125 | loss 0.6864 | auc 0.5656
+epoch   5/10 | step  31/125 | loss 0.6856 | auc 0.5689
+epoch   5/10 | step  42/125 | loss 0.6852 | auc 0.5673
+epoch   5/10 | step  52/125 | loss 0.6848 | auc 0.5656
+epoch   5/10 | step  62/125 | loss 0.6845 | auc 0.5644
+epoch   5/10 | step  73/125 | loss 0.6844 | auc 0.5591
+epoch   5/10 | step  83/125 | loss 0.6844 | auc 0.5579
+epoch   5/10 | step  94/125 | loss 0.6842 | auc 0.5598
+epoch   5/10 | step 104/125 | loss 0.6843 | auc 0.5585
+epoch   5/10 | step 115/125 | loss 0.6840 | auc 0.5579
+epoch   5/10 | step 125/125 | loss 0.6838 | auc 0.5601
+epoch   6/10 | step  10/125 | loss 0.6845 | auc 0.5640
+epoch   6/10 | step  21/125 | loss 0.6822 | auc 0.5662
+epoch   6/10 | step  31/125 | loss 0.6830 | auc 0.5650
+epoch   6/10 | step  42/125 | loss 0.6822 | auc 0.5648
+epoch   6/10 | step  52/125 | loss 0.6824 | auc 0.5636
+epoch   6/10 | step  62/125 | loss 0.6824 | auc 0.5633
+epoch   6/10 | step  73/125 | loss 0.6828 | auc 0.5616
+epoch   6/10 | step  83/125 | loss 0.6825 | auc 0.5621
+epoch   6/10 | step  94/125 | loss 0.6824 | auc 0.5634
+epoch   6/10 | step 104/125 | loss 0.6821 | auc 0.5631
+epoch   6/10 | step 115/125 | loss 0.6821 | auc 0.5621
+epoch   6/10 | step 125/125 | loss 0.6819 | auc 0.5599
+epoch   7/10 | step  10/125 | loss 0.6819 | auc 0.5577
+epoch   7/10 | step  21/125 | loss 0.6822 | auc 0.5562
+epoch   7/10 | step  31/125 | loss 0.6817 | auc 0.5565
+epoch   7/10 | step  42/125 | loss 0.6816 | auc 0.5574
+epoch   7/10 | step  52/125 | loss 0.6814 | auc 0.5581
+epoch   7/10 | step  62/125 | loss 0.6810 | auc 0.5541
+epoch   7/10 | step  73/125 | loss 0.6811 | auc 0.5513
+epoch   7/10 | step  83/125 | loss 0.6804 | auc 0.5511
+epoch   7/10 | step  94/125 | loss 0.6800 | auc 0.5517
+epoch   7/10 | step 104/125 | loss 0.6799 | auc 0.5541
+epoch   7/10 | step 115/125 | loss 0.6799 | auc 0.5551
+epoch   7/10 | step 125/125 | loss 0.6800 | auc 0.5536
+epoch   8/10 | step  10/125 | loss 0.6795 | auc 0.5525
+epoch   8/10 | step  21/125 | loss 0.6779 | auc 0.5508
+epoch   8/10 | step  31/125 | loss 0.6786 | auc 0.5509
+epoch   8/10 | step  42/125 | loss 0.6787 | auc 0.5532
+epoch   8/10 | step  52/125 | loss 0.6789 | auc 0.5526
+epoch   8/10 | step  62/125 | loss 0.6789 | auc 0.5513
+epoch   8/10 | step  73/125 | loss 0.6788 | auc 0.5503
+epoch   8/10 | step  83/125 | loss 0.6791 | auc 0.5499
+epoch   8/10 | step  94/125 | loss 0.6784 | auc 0.5479
+epoch   8/10 | step 104/125 | loss 0.6781 | auc 0.5504
+epoch   8/10 | step 115/125 | loss 0.6783 | auc 0.5505
+epoch   8/10 | step 125/125 | loss 0.6782 | auc 0.5481
+epoch   9/10 | step  10/125 | loss 0.6772 | auc 0.5457
+epoch   9/10 | step  21/125 | loss 0.6784 | auc 0.5448
+epoch   9/10 | step  31/125 | loss 0.6767 | auc 0.5427
+epoch   9/10 | step  42/125 | loss 0.6765 | auc 0.5392
+epoch   9/10 | step  52/125 | loss 0.6770 | auc 0.5389
+epoch   9/10 | step  62/125 | loss 0.6762 | auc 0.5398
+epoch   9/10 | step  73/125 | loss 0.6760 | auc 0.5392
+epoch   9/10 | step  83/125 | loss 0.6759 | auc 0.5397
+epoch   9/10 | step  94/125 | loss 0.6763 | auc 0.5381
+epoch   9/10 | step 104/125 | loss 0.6764 | auc 0.5392
+epoch   9/10 | step 115/125 | loss 0.6766 | auc 0.5397
+epoch   9/10 | step 125/125 | loss 0.6766 | auc 0.5422
+epoch  10/10 | step  10/125 | loss 0.6760 | auc 0.5442
+epoch  10/10 | step  21/125 | loss 0.6769 | auc 0.5473
+epoch  10/10 | step  31/125 | loss 0.6772 | auc 0.5479
+epoch  10/10 | step  42/125 | loss 0.6774 | auc 0.5473
+epoch  10/10 | step  52/125 | loss 0.6779 | auc 0.5448
+epoch  10/10 | step  62/125 | loss 0.6767 | auc 0.5439
+epoch  10/10 | step  73/125 | loss 0.6763 | auc 0.5448
+epoch  10/10 | step  83/125 | loss 0.6758 | auc 0.5436
+epoch  10/10 | step  94/125 | loss 0.6754 | auc 0.5419
+epoch  10/10 | step 104/125 | loss 0.6754 | auc 0.5418
+epoch  10/10 | step 115/125 | loss 0.6749 | auc 0.5426
+epoch  10/10 | step 125/125 | loss 0.6750 | auc 0.5424
+
+best auc 0.6843 saved to ../runs/shuffled_labels/best.pth

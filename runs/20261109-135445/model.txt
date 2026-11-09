@@ -1,0 +1,7 @@
+Model(
+  (binary_classifier): Sequential(
+    (0): Linear(in_features=512, out_features=1, bias=True)
+  )
+)
+
+parameters: 513
